@@ -1,9 +1,19 @@
-(function ($, window, document, undefined) {
-
+var name = (function() {
   'use strict';
 
-  $(function () {
-    // FireShell
-  });
+  function init() {
+    
+  }
 
-})(jQuery, window, document);
+  return {
+    init:init
+  };
+
+}());
+
+
+window.onload = function() {
+  'use strict';
+  name.init();
+
+};
