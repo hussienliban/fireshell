@@ -1,4 +1,4 @@
-var name = (function() {
+var siteName = (function() {
   'use strict';
 
   function init() {
@@ -14,6 +14,6 @@ var name = (function() {
 
 window.onload = function() {
   'use strict';
-  name.init();
+  siteName.init();
 
 };
